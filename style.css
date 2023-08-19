@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:ital,wght@1,100&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 6px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.calculator {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+
+}
+
+input {
+    width: 400px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.5);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #ffffff;
+    box-shadow: 0px 3px 15px rgba(59, 59, 66, 0.9);
+}
+
+button {
+    border: none;
+    width:65px;
+    height: 65px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 30px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.equalbutton {
+    background-color: #fb7c14;
+}
+
+.operator {
+    color: rgb(60, 255, 1);
+}
+
+.necessory {
+    color: rgb(99, 2, 255);
+}
+
